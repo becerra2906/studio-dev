@@ -3,7 +3,7 @@ body{
 }
 
 .home-wrapper{
-    background: url(../images/background.jpg) no-repeat center top;
+    background: linear-gradient(rgba(0 , 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/background.jpg) no-repeat center top;
     background-size: cover;
     color: white;
 }
@@ -50,3 +50,23 @@ header nav a.active{
     margin-left: auto;
     margin-right: auto;
 }
+
+#home .logos{
+    width: 40px;
+    padding: 10px;
+
+
+}
+
+#home .facebook{
+    width: 20px;
+    padding: 10px;
+}
+
+#home #logos{
+    display: inline-block;
+    position: relative;
+
+
+}
+
